@@ -1,0 +1,25 @@
+---
+name: WebshipperYML
+---
+Order:
+  extensions:
+    - Silvershop\Webshipper\WebshipperManagedOrder
+    - Silvershop\Webshipper\WebshipperOrderExtension
+OrderItem:
+  extensions:
+    - Silvershop\Webshipper\WebshipperProductOrderItemExtension
+CheckoutPage:
+  extension:
+    - Silvershop\Webshipper\WebshipperCheckoutPageExtension
+CheckoutPage_Controller:
+  extensions:
+    - Silvershop\Webshipper\WebshipperCheckoutPage_ControllerExtension
+ShippingFrameworkModifier:
+  extensions:
+    - Silvershop\Webshipper\WebshipperShippingFrameworkModifierExtension
+Product:
+  extensions:
+    - Silvershop\Webshipper\WebshipperProductExtension
+ProductVariation:
+  extensions:
+    - Silvershop\Webshipper\WebshipperProductVariationExtension

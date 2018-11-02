@@ -1,0 +1,7 @@
+---
+Name: Webshipperrouted
+After: framework/routes#coreroutes
+---
+Director:
+  rules:
+    'webshipper//$endpoint': 'Silvershop\Webshipper\WebshipperHook_Controller'

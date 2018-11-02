@@ -1,0 +1,19 @@
+{
+	"name": "silvershop/webshipper",
+	"description": "Adds webshipper shipping to SilverShop.",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "silvershop", "ecommerce","webshipper"],
+	"license": "BSD-2-Clause",
+	"authors": [{
+		"name": "Lun&co",
+		"email": "info@lund-co.dk"
+	}],
+	"extra": {
+		"installer-name": "silvershop-webshipper"
+	},
+	"require": {
+		"silvershop/core": ">=2.0.1",
+	  	"silvershop/shipping": "^0.3.0",
+	  	"silverstripe/cms": "~3.1"
+	}
+}
