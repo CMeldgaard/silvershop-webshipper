@@ -2,6 +2,10 @@
 
 Adds integration to Webshipper API.
 
+[![Latest Stable Version](https://poser.pugx.org/lundco/webshipper/v/stable)](https://packagist.org/packages/lundco/webshipper)
+[![Latest Unstable Version](https://poser.pugx.org/lundco/webshipper/v/unstable)](https://packagist.org/packages/lundco/webshipper)
+[![License](https://poser.pugx.org/lundco/webshipper/license)](https://packagist.org/packages/lundco/webshipper)
+
 ## Installation
 
 composer require "silvershop/webshipper"
