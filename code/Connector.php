@@ -217,5 +217,6 @@ class Connector extends \Object
     public function updateWebshipperOrderID($order, $WebshipperID)
     {
         $order->WebshipperID = (int)$WebshipperID;
+        $order->write();
     }
 }

@@ -4,9 +4,6 @@ namespace Silvershop\Webshipper;
 
 class WebshipperOrderExtension extends \DataExtension
 {
-	private static $db = array(
-		'Droppoint'    => 'Varchar(255)'
-	);
 
 	private static $has_many = [
 		'Shipments' => 'WebshipperShipment'

@@ -19,8 +19,10 @@ $(document).ready(function () {
         console.log('shipment change');
         var val = $(this).val();
         if ($(this).parent().parent().hasClass('droppoint')) {
+            resetSelectBox();
             moveSelectBox($(this));
         }else{
+            resetSelectBox();
             $('#PaymentForm_OrderForm_WebshipperShippingCheckoutComponent_WebshipperDroppoint').removeAttr('required');
         }
 
@@ -45,8 +47,12 @@ $(document).ready(function () {
 
 });
 
+function resetSelectBox() {
+    var droppointSelector = $('#PaymentForm_OrderForm_WebshipperShippingCheckoutComponent_WebshipperDroppoint');
+    $(droppointSelector).prop('selectedIndex',0);
+}
+
 function moveSelectBox(shippingMethod) {
-    console.log('move box');
     var droppointSelector = $('#PaymentForm_OrderForm_WebshipperShippingCheckoutComponent_WebshipperDroppoint');
     droppointSelector.appendTo($(shippingMethod).parent());
     droppointSelector.attr('required', 'required');
