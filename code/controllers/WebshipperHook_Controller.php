@@ -72,7 +72,7 @@ class WebshipperHook_Controller extends \Controller
      * @param $hookkey
      * @return $this
      */
-    public function sCaptureOnFullfilment($captureOnFulfillment)
+    public function setCaptureOnFullfilment($captureOnFulfillment)
     {
         $this->captureOnFulfillment = $captureOnFulfillment;
         return $this;
@@ -85,7 +85,7 @@ class WebshipperHook_Controller extends \Controller
     public function getCaptureOnFullfilment()
     {
         if (empty($this->captureOnFulfillment)) {
-            $this->setHookKey(self::config()->captureOnFulfillment);
+            $this->setCaptureOnFullfilment(self::config()->captureOnFulfillment);
         }
         return $this->captureOnFulfillment;
     }
