@@ -115,7 +115,7 @@ class WebshipperHook_Controller extends \Controller
             //Updat order to sent
             $order->Status = 'Sent';
 
-            if($this->getCaptureOnFullfilment){
+            if($this->getCaptureOnFullfilment()){
                 //IF statement to prevent capture from config settings
                 $payment = \Payment::get()->filter('OrderID', $order->ID)->first();
 
