@@ -1,5 +1,5 @@
 {
-	"name": "lundco/webshipper",
+	"name": "meldgaard/silvershop-webshipper",
 	"description": "Adds webshipper shipping to SilverShop.",
 	"type": "silverstripe-module",
 	"keywords": ["silverstripe", "silvershop", "ecommerce","webshipper"],
