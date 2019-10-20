@@ -8,7 +8,7 @@ Adds integration to Webshipper API.
 
 ## Installation
 
-composer require "silvershop/webshipper"
+composer require "meldgaard/silvershop-webshipper"
 
 After installing the module, rebuild the database and create your first Webshipper shipping method in the `Shipping` model admin
 
