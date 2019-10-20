@@ -2,9 +2,9 @@
 
 Adds integration to Webshipper API.
 
-[![Latest Stable Version](https://poser.pugx.org/meldgaard/webshipper/v/stable)](https://packagist.org/packages/meldgaard/webshipper)
-[![Latest Unstable Version](https://poser.pugx.org/meldgaard/webshipper/v/unstable)](https://packagist.org/packages/meldgaard/webshipper)
-[![License](https://poser.pugx.org/meldgaard/webshipper/license)](https://packagist.org/packages/meldgaard/webshipper)
+[![Latest Stable Version](https://poser.pugx.org/meldgaard/silvershop-webshipper/v/stable)](https://packagist.org/packages/meldgaard/silvershop-webshipper)
+[![Latest Unstable Version](https://poser.pugx.org/meldgaard/silvershop-webshipper/v/unstable)](https://packagist.org/packages/meldgaard/silvershop-webshipper)
+[![License](https://poser.pugx.org/meldgaard/silvershop-webshipper/license)](https://packagist.org/packages/meldgaard/silvershop-webshipper)
 
 ## Installation
 
