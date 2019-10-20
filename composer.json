@@ -5,8 +5,7 @@
 	"keywords": ["silverstripe", "silvershop", "ecommerce","webshipper"],
 	"license": "BSD-2-Clause",
 	"authors": [{
-		"name": "Lun&co",
-		"email": "info@lund-co.dk"
+		"name": "Carsten Meldgaard"
 	}],
 	"extra": {
 		"installer-name": "silvershop-webshipper"
